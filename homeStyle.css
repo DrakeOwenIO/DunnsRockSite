@@ -19,6 +19,14 @@ p{
     overflow-x: hidden;
 }
 
+img{
+    width: 550px;
+    height: 500px;
+    margin-left: auto;
+    padding-top: 3%;
+    padding-right: 10%;
+}
+
 .lodgeName{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 700%;
@@ -30,11 +38,23 @@ p{
     background-color: black;
     width: 100%;
     height: 60%;
+    display: inline-flex;
 }
 
 .lodgeContainer{
     width: fit-content;
+    height: fit-content;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 6%;
+    
 }
+
+.cityName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    text-align: center;
+}
+
+
+
 
