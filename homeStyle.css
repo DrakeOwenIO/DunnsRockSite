@@ -55,6 +55,30 @@ img{
     text-align: center;
 }
 
+a.button3{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border: 2px solid black;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    color: black;
+    text-align:center;
+    transition: all 0.2s;
+    border-color: black;
+    transform: scale(2);
+    width: 10em;
+}
+    
+a.button3:hover{
+    background-color:white;
+    color: black;
+    transform: scale(2.5);
+}
 
-
+.floatButtons{
+    float: left; 
+    width: 50%; 
+    text-align: center;
+}
 
